@@ -161,7 +161,7 @@ top: -7px;
 z-index: 1;
 }
 
-.google_translate_element{
+div.google_translate_element{
 width: 19px;
 height: 14px;
 position: absolute;
