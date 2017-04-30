@@ -161,7 +161,7 @@ top: -7px;
 z-index: 1;
 }
 
-.en{
+.google_translate_element{
 width: 19px;
 height: 14px;
 position: absolute;
@@ -183,31 +183,4 @@ z-index: 100;
 
 .PM{
   width: 100%;
-}
-.en img { 
-filter:alpha(opacity=100); 
--moz-opacity: 1.0; 
-opacity: 1.0; 
-border:0; 
-} 
-.en:hover img { 
-filter:alpha(opacity=30); 
--moz-opacity: 0.30; 
-opacity: 0.30; 
-border:0; 
-} 
-.en:hover img { 
-filter:alpha(opacity=0.30); 
--moz-opacity: 0.30; 
-opacity: 0.30; 
-border:0; 
-} 
-#google_translate_element,
-.goog-te-banner-frame,
-.goog-te-balloon-frame,
-#goog-gt-tt,
-.goog-te-balloon-frame,
-.goog-tooltip,
-.goog-tooltip:hover {
- display:none !important;
 }
