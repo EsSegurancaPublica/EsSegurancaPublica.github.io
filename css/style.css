@@ -268,9 +268,7 @@ img.PM {
   -moz-transition: all .5s linear;
   transition: all .5s linear;
   opacity: 1;
-  width: 300px;
   height: auto;
-  position: fixed;
 }
 .efeito {
   opacity: 0.5;
