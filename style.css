@@ -159,6 +159,14 @@ top: -7px;
 z-index: 1;
 }
 
+.google_translate{
+width: 19px;
+height: 14px;
+position: absolute;
+right: -3.9%;
+top: 14px;
+z-index: 100;
+}
 /*-----------------------------FIM DA BARRA HORIZONTAL-------------------------------*/
 
 /*INÍCIO*/
