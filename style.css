@@ -172,7 +172,7 @@ z-index: 100;
 width: 19px;
 height: 14px;
 position: absolute;
-right: -10.5%;
+right: -8%;
 top: 14px;
 z-index: 100;
 }
@@ -191,17 +191,17 @@ z-index: 100;
 .PM{
   width: 100%;
 }
-.google_translate img { 
+.google_translate, .BR img { 
     filter:alpha(opacity=100); 
     -moz-opacity: 1.0; 
     opacity: 1.0; 
 } 
-.google_translate:hover img { 
+.google_translate:hover, .BR:hover img { 
     filter:alpha(opacity=30); 
     -moz-opacity: 0.30; 
     opacity: 0.30; 
 } 
-.google_translatextra:hover img { 
+.google_translatextra:hover, .BR:hover img { 
     filter:alpha(opacity=0.30); 
     -moz-opacity: 0.30; 
     opacity: 0.30; 
