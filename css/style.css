@@ -262,14 +262,3 @@ footer.home .home_ultimas p {
 	margin-left: 20px;
 	margin-right: 20px;
 }
-
-img.PM {
-  -webkit-transition: all .5s linear;
-  -moz-transition: all .5s linear;
-  transition: all .5s linear;
-  opacity: 1;
-  height: auto;
-}
-.efeito {
-  opacity: 0.5;
-}
