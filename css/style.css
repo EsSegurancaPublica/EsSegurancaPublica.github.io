@@ -228,6 +228,8 @@ footer {
 	text-align: center;
 	padding-top: 30px;
 	float: left;
+	margin-left: 5px;
+        margin-right: 0;
 }
 footer .home_ultimas h3 {
 	color: #B3B3B3;
@@ -242,6 +244,10 @@ footer .home_ultimas p {
 	height: auto;
 	max-width: 400px;
 	max-height: 200px;
+	opacity: 0.8;
+}
+.img_noti:hover {
+       opacity: 0.3;	
 }
 footer .home_ultimas p {
 	padding-left: 30px;
@@ -251,4 +257,42 @@ footer .home_ultimas p {
 	font-weight: lighter;
 	margin-left: 20px;
 	margin-right: 20px;
+}
+div.portfolio {
+	width: 23%;
+	text-align: center;
+	float: left;
+	margin-top: 35px;
+	background-color: white;
+	padding-bottom: 20px;
+	margin-left: 1%;
+	margin-right: 1%;
+	padding-top: 20px;
+	border-bottom: 5px solid #52BAD5;
+	border-top: 1px solid #52BAD5;
+	border-left: 1px solid #52BAD5;
+	border-right: 1px solid #52BAD5;
+}
+div.portfolio h4 {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 0;
+	text-align: left;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+div.portfolio p {
+	margin:0;
+	text-align: left;
+	padding-left: 20px;
+}
+img.portfolio_img {
+	width: 100%;
+	height: auto;
+	max-width: 400px;
+	max-height: 200px;
+	opacity: 0.8;
+}
+img.portfolio_img:hover {
+	opacity: 0.3;
 }
