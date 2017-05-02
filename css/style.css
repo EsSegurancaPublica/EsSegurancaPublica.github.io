@@ -273,6 +273,10 @@ div.portfolio {
 	border-left: 1px solid #52BAD5;
 	border-right: 1px solid #52BAD5;
 }
+div.portfolio_mae {
+	margin-left: 60px;
+	margin-right: 60px;
+}
 div.portfolio h4 {
 	margin-top: 5px;
 	margin-bottom: 5px;
