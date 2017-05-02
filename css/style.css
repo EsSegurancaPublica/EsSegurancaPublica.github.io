@@ -178,7 +178,10 @@ right: 5.6%;
 top: 19px;
 z-index: 100;
 }
-
+.English {
+width: 19px;
+height: 14px;
+}
 /*-----------------------------FIM DA BARRA HORIZONTAL-------------------------------*/
 
 /*INÍCIO*/
