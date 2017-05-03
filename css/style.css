@@ -188,7 +188,7 @@ top: 19px;
 z-index: 100;
 }
 #google_translate_element,.goog-te-banner-frame,.goog-te-balloon-frame,#goog-gt-tt,.goog-te-balloon-frame,.goog-tooltip,.goog-tooltip:hover {
-right: -3%;
+left: -3%;
 top: 10px;
 z-index: 100;
 position: fixed;
