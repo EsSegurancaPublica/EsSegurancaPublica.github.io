@@ -50,7 +50,7 @@ font-weight:bold;
 text-align: 50px;
 z-index: 0;
 position: fixed;
-margin-right: 50px;
+margin-right: 100px;
 }
 
 .menu ul {
@@ -189,7 +189,7 @@ top: 19px;
 z-index: 100;
 }
 #google_translate_element,.goog-te-banner-frame,.goog-te-balloon-frame,#goog-gt-tt,.goog-te-balloon-frame,.goog-tooltip,.goog-tooltip:hover {
-right: -1%;
+right: 1%;
 top: 10px;
 z-index: 100;
 position: fixed;
@@ -218,12 +218,14 @@ position: fixed;
 	padding-left: 20px;
 	padding-right: 20px;
 	color: #939393;
-	font-family: "Roboto"
+	font-family: "Roboto";
+	position: absolute;
 }
 .conteudo h2 {
 	color: #696969	;
 	text-align: center;
-	font-family: "Roboto"
+	font-family: "Roboto";
+	  position: absolute;
 }
 .home_mais {
 	padding-left: 25px;
@@ -235,6 +237,8 @@ position: fixed;
 	margin-left: 15%;
 	margin-right: 10%;
 	margin-bottom: 160px;
+	position: absolute;
+
 }
 footer {
 	background-color: #FFFFFF;
@@ -259,7 +263,7 @@ footer .home_ultimas p {
 	max-width: 360px;
 	max-height: 175px;
 	width: 300px;
-
+	position: absolute;
 }
 
 .mantem{
@@ -272,6 +276,7 @@ footer .home_ultimas p {
 	max-width: 360px;
 	max-height: 175px;
 	width: 300px;
+	position: absolute;
 
 }
 
@@ -302,6 +307,7 @@ div.portfolio {
 	border-top: 1px solid #0a114c;
 	border-left: 1px solid #0a114c;
 	border-right: 1px solid #0a114c;
+	position: absolute;
 }
 
 div.portfolio h4 {
@@ -328,6 +334,7 @@ img.portfolio_img {
 	max-width: 400px;
 	max-height: 200px;
 	opacity: 0.8;
+	position: absolute;
 }
 img.portfolio_img:hover {
 	opacity: 0.3;
