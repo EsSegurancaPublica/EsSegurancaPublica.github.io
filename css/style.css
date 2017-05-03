@@ -50,7 +50,6 @@ font-weight:bold;
 text-align: 50px;
 z-index: 0;
 position: fixed;
-margin-right: 120px;
 }
 
 .menu ul {
@@ -153,15 +152,6 @@ color:#fff;
 text-decoration:none;
 }  
 
-.BR{
-width: 19px;
-height: 14px;
-position: fixed;
-right: 3.6%;
-top: 19px;
-z-index: 100;
-}
-
 .IFES{
 width: 155px;
 height: 63px;
@@ -171,23 +161,6 @@ top: -7px;
 z-index: 1;
 }
 
-.google_translate{
-width: 19px;
-height: 14px;
-position: fixed;
-right: 5.6%;
-top: 19px;
-z-index: 100;
-}
-
-.EUA{
-width: 19px;
-height: 14px;
-position: fixed;
-right: 5.6%;
-top: 19px;
-z-index: 100;
-}
 #google_translate_element,.goog-te-banner-frame,.goog-te-balloon-frame,#goog-gt-tt,.goog-te-balloon-frame,.goog-tooltip,.goog-tooltip:hover {
 right: 1%;
 top: 10px;
