@@ -50,7 +50,7 @@ font-weight:bold;
 text-align: 50px;
 z-index: 0;
 position: fixed;
-margin-right: 30px;
+margin-right: 50px;
 }
 
 .menu ul {
@@ -189,7 +189,7 @@ top: 19px;
 z-index: 100;
 }
 #google_translate_element,.goog-te-banner-frame,.goog-te-balloon-frame,#goog-gt-tt,.goog-te-balloon-frame,.goog-tooltip,.goog-tooltip:hover {
-right: -2%;
+right: -1%;
 top: 10px;
 z-index: 100;
 position: fixed;
