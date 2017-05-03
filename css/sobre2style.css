@@ -25,7 +25,6 @@ body{
   top: 0;
   position: fixed;
   box-shadow: -5px 2px 10px #bfbdbd;
-  z-index: 10
 }
 
 
@@ -40,7 +39,6 @@ top: 0px;
 right: 135px; 
 z-index:0;
 position: fixed;
-z-index: 10
 }
 
 .menu {
@@ -172,14 +170,6 @@ top: -7px;
 z-index: 1;
 }
 
-.google_translate{
-width: 19px;
-height: 14px;
-position: fixed;
-right: 5.6%;
-top: 19px;
-z-index: 100;
-}
 
 .EUA{
 width: 19px;
