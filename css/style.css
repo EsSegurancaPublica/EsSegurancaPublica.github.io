@@ -311,14 +311,14 @@ img.portfolio_img:hover {
 	opacity: 0.3;
 }
 
-p2{
+.p2{
     font-family: "Helvetica";
     position: absolute;
     left: 69%;
     top: 26%;
 }
 
-p2 a {
+.p2 a {
 	text-decoration: none;
 	color: black;
 }
