@@ -195,6 +195,9 @@ h2, p, li, h4{
 		background-color: #005690;
 	}
 
+nav.navbar.navbar-toggleable-md.navbar-light.bg-faded{
+	background: rgb(0, 153, 222) url(http://imageshack.com/a/img924/9792/Aws0yj.png) top no-repeat
+}
 	.text-muted{
 		color: #fff!important;
 	}
