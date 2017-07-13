@@ -1,242 +1,199 @@
-/*---------------------BARRA HORIZONTAL NÃO MECHER-----------------------------*/
-<style>
->  
-*{
-    padding: 0;
-    margin: 0;
-}
-
-
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 
 body{
-    background: #fcfcfc;
-    margin: 0;
-    padding: 0;
+	background-color: #e8e8e8;
 }
 
-.top{
-  background: #fff;
-  width: 100%;
-  height: 50px;
-  position: absolute;
-  top: 0;
-  position: fixed;
-  box-shadow: -5px 2px 10px #bfbdbd;
+.bg-faded {
+	background-color: #ffe100;
+	padding: 0px 55px;
+}
+
+.nav-link{
+	background-color: rgb(0, 153, 222);
+	color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link {
+	padding-top:15px;
+	padding-bottom:17px;
+	
+}
+
+.navbar-light .navbar-toggler{
+	border-color: transparent;
+	margin-top: 11px;
+
+}
+
+.navbar-light .navbar-toggler-icon{
+	background-image: url("http://www.stickpng.com/assets/images/588a64e0d06f6719692a2d10.png");
+}
+
+.navbar-light .navbar-brand{
+	
+	font-family: "Roboto" ,"Leckerli One", Arial;
+	font-weight: bold 8px;
+	font-size: 29px;
+	
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.open, .navbar-light .navbar-nav .open>.nav-link{
+	background-color: rgb(0, 153, 222);
+	
+	-webkit-transition:all 0.2s linear;
+	transition:all 0.2s linear;
+	
+
+}
+
+.navbar-light .navbar-nav .nav-link {
+	
+	margin-right: 30px;
+	padding-right: 25px;
+	padding-left: 25px;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover{
+	background: rgb(0, 86, 144);
+	-webkit-transition:all 0.2s linear;
+	transition:all 0.2s linear;
+	color: rgb(232, 232, 232);
+
+}
+
+.nav-link.disabled{
+	cursor: auto;
+}
+
+nav.navbar.navbar-toggleable-md.navbar-light.bg-faded{
+	background:rgba(255, 255, 255, 0) url(http://imageshack.com/a/img924/9792/Aws0yj.png) top no-repeat;
+	background-position-y: -1375px;
+	z-index: 2;
 }
 
 
-#menuWrapper {
-width:100%; 
-height:50px;
-padding-left:14px;
-background:#fff; 
-border-radius:0px; 
-position: absolute;
-top: 0px;
-right: 135px; 
-z-index:0;
-position: fixed;
+nav.navbar.navbar-toggleable-md.navbar-light.bg-faded {
+	transition:all 0.4s;
+	position: fixed;
+	width: 100%
+
 }
 
-.menu {
+.pm {
+
 width: 100%;
-float: left;
-font-family: "Helvetica";
-font-size:15px;
-font-weight:bold;
-text-align: 50px;
-z-index: 0;
-position: fixed;
+
 }
 
-.menu ul {
-float:right;
-height:50%;
-list-style:none;
-margin:0;
-padding:0;
- 
-top: 50px;
+.img-responsive{
+	width: 100%;
+
 }
 
+.jumbotron{
+	margin-top: -3%;
+	border-radius: 20px;
 
-.menu li {
-float:left;
-padding:0px;
-border-right: 1px solid #eaeaea;
 }
 
-.menu ul li a{
-color:#444; 
-display:block;
-text-transform:capitalize;
-font-weight:normal;
-line-height:35px;
-margin:0px;
-padding:7.7px 22px; 
-text-align:center;
-text-decoration:none;
-transition:all 0.2s linear;
-left: -200px;
+.breadcrumb{
+background-color: #e4e4e4;
+box-shadow: 0px 3px #c9c4c4;
+margin-top: -3%;
+border-radius: 15px;
+}
+
+.LG1{
+	padding-bottom: : 0px;
+	margin: 0px;
 }
 
 
-.menu li a:hover  {
-background: #0a114c; 
-text-decoration:none;
-transition:all 0.1s linear;
+.list-group-item:last-child{
+	border-bottom-right-radius: none;
+	border-bottom-left-radius: none;
 }
 
-.menu ul li:hover a{
-background: #0a114c; 
-text-decoration:none;
-transition:all 0.1s linear;
+li{
+font-weight: bold;
+font-size: 18px;
 }
 
-
-.menu ul li a:hover a{
-color: #fff;
-z-index: 1;
+.list-group-item:first-child{
+	border-top-right-radius:none;
+	border-top-left-radius:none;
+	border-radius: 11px;
 }
 
-.menu ul li a:hover{
-color: #fff;
-}    
-
-
-.menu li ul {
-background:#fff; 
-display:none;
-height:auto;
-padding:0px;
-margin:0px;
-position:absolute;
-width:200px; 
-z-index:100;
-}
-
-.menu li:hover ul{
-display:block;
+.list-group-item{
+border: none;
+padding: 0px;
+box-shadow: 0px 2px #e2e0e0;
+background-color: #fffffe;
 
 }
-.menu li li {
-display:block;
-float:none;
-margin:0px;
-padding:0px;
-width:200px;
-}
 
-.menu li:hover li a {
-background:none;
-
-transition:all 0.2s linear;
-}
-
-.menu li ul a {
-display:block;
-height:35px;
-font-size:13px;
-font-style:normal;
-margin:0px;
-padding:0px 10px 0px 15px;
-text-align:left;
-}
-
-.menu li ul a:hover, .menu li ul li:hover a{
-background:#0a114c; 
-color:#fff;
-text-decoration:none;
-}  
-
-.BR{
-width: 19px;
-height: 14px;
-position: fixed;
-right: 3.6%;
-top: 19px;
-z-index: 100;
-}
-
-.IFES{
-width: 155px;
-height: 63px;
-position: absolute;
-left: 260px;
-top: -7px;
-z-index: 1;
-}
-
-.EUA{
-width: 19px;
-height: 14px;
-position: fixed;
-right: 5.6%;
-top: 19px;
-z-index: 100;
-}
-
-/*-----------------------------FIM DA BARRA HORIZONTAL-------------------------------*/
-
-/*INÍCIO*/
-
-.NOT{
-  width: 100%;
-  
-}
-
-*{
-  margin: 0;
-  padding: 0;
-}
-
-body{
-  background-color: white;
-}
-
-.nada{
-  color: #fcfcfc;
-  float: left;
-  width: 9%;
-  height:1350px
-}
-
-.img1{
-  width: 40%;
-  height: 40%
-}
-
-.img2{
-  width: 40%;
-  height: 40%
-}
-
-.img3{
-  width: 40%;
-  height: 40%
-}
-
-.img4{
-  width: 40%;
-  height: 40%
-}
-
-.img5{
-  width: 40%;
-  height: 40%
-}
-
-.img6{
-  width: 40%;
-  height: 40%
-}
-
-p{
-  font-weight: bold;
-  font-family: "Helvetica";
-  text-align: right;
+.list-group{
+	margin-bottom: 25px;
 }
 
 
+h4{
+	margin-left: 10px;
+	font-family: "Roboto" ,"Myriad Pro"
+}
+
+.jumbotron{
+	background-color: #f2f2f2;
+}
+
+a{
+	color: #434648
+}
+
+.theme{
+	float: left;
+	margin-right: 25px;
+	margin-bottom: 5px;
+}
+
+h2, p, li, h4{
+	font-family: "Roboto" ,"Myriad Pro";
+}
 
 
+.p-ponto{
+	width: 70%;
+
+}
+
+.footer{
+	background-color: #237dba;
+	width: 100%;
+	height: 100px;
+	text-align: center;
+	color: #fff;
+	padding: 40px;
+	font-family: "Roboto", "Myriad Pro", Arial;
+}
+	
+
+.card-deck .card .card-img-top {
+    padding: 10px;
+    width: 100%;
+} 
+
+.card-deck .card .card-block .card-title {
+	font-family: 'Raleway', sans-serif;
+     
+}
+
+.card-deck .card .card-footer .text-muted {
+    font-family: 'Raleway', sans-serif;
+}
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 90%;
+      margin: auto;
+  }
