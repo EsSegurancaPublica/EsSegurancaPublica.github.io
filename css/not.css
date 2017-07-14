@@ -15,6 +15,10 @@ body{
 
 }
 
+a:focus, a:hover{
+	text-decoration: none
+}
+
 .navbar-light .navbar-nav .nav-link {
 	padding-top:15px;
 	padding-bottom:17px;
