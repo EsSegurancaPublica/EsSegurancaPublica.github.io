@@ -2,11 +2,10 @@
 
 body{
 	background-color: #e8e8e8;
-	G
 }
 
 .bg-faded {
-	background-color: #ffe100;
+	background-color: #0099de;
 	padding: 0px 55px;
 }
 
@@ -14,6 +13,10 @@ body{
 	background-color: transparent;
 	color: #fff;
 
+}
+
+a:focus, a:hover{
+	text-decoration: none
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -39,7 +42,6 @@ body{
 	font-family: "Roboto" ,"Leckerli One", Arial;
 	font-weight: bold 8px;
 	font-size: 29px;
-	margin-right: 245px;
 	
 }
 
@@ -72,7 +74,7 @@ body{
 }
 
 nav.navbar.navbar-toggleable-md.navbar-light.bg-faded{
-	background:rgba(255, 255, 255, 0) url(http://imageshack.com/a/img924/9792/Aws0yj.png) top no-repeat;
+	background:rgba(0, 153, 222, 1) url(http://imageshack.com/a/img924/9792/Aws0yj.png) top no-repeat;
 	background-position-y: -1375px;
 	z-index: 2;
 }
@@ -84,6 +86,7 @@ nav.navbar.navbar-toggleable-md.navbar-light.bg-faded {
 	width: 100%
 
 }
+
 
 .pm {
 
