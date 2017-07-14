@@ -5,7 +5,7 @@ body{
 }
 
 .bg-faded {
-	background-color: #ffe100;
+	background-color: #0099de;
 	padding: 0px 55px;
 }
 
@@ -70,7 +70,7 @@ body{
 }
 
 nav.navbar.navbar-toggleable-md.navbar-light.bg-faded{
-	background:rgba(255, 255, 255, 0) url(http://imageshack.com/a/img924/9792/Aws0yj.png) top no-repeat;
+	background:rgba(0, 153, 222, 0) url(http://imageshack.com/a/img924/9792/Aws0yj.png) top no-repeat;
 	background-position-y: -1375px;
 	z-index: 2;
 }
