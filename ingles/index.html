@@ -1,86 +1,222 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <link rel="shortcut icon" href="http://imageshack.com/a/img923/4062/36SYkd.png" type="imagem/x-png">
-	<meta charset="UTF-8">
-	<title>Segurança Pública</title>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body{
+	background-color: #e8e8e8;
+}
+
+.bg-faded {
+	background-color: #237dba;
+	padding: 0px 55px;
+}
+
+.navbar-light .navbar-brand{
 	
-</head>
-<!--...........................................BARRA HORIZONTAL NÃO MECHER.....................................................-->
-<body>
-<div class="top"></div>
-<div id='menuWrapper'>
-<div class='menu'>
-<ul>
-<li><a class="mantem" href="index.html">Home</a></li>
-<li><a>More</a>
-<ul>
-<li><a href="sobre.html">About Public Security</a></li>	
-<li><a href="sobre2.html">About Us</a></li>
-</ul>
-</li>
-<li><a href="not.html">News</a></li>
-<li><a>Crises</a>
-<ul>
-<li><a href="crise1.html">Military Police Crises</a></li>
+	font-family: "Roboto" ,"Leckerli One", Arial;
+	font-weight: bold 8px;
+	font-size: 29px;
+	margin-right: 245px
+}
 
-</ul>
-</li>
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.open, .navbar-light .navbar-nav .open>.nav-link{
+	background-color: #282b2d;
+	border-radius:20px;
+	-webkit-transition:all 0.2s linear;
+	transition:all 0.2s linear;
+	padding-left:25px;
+	padding-right:25px;
+	color: rgb(255, 225, 0);
+	margin-right: 30px;
+
+}
+
+.navbar-light .navbar-nav .nav-link {
+	border-radius: 20px;
+	margin-right: 30px;
+	padding-right: 25px;
+	padding-left: 25px;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover{
+	background: #292b2c;
+	-webkit-transition:all 0.2s linear;
+	transition:all 0.2s linear;
+	color: #ffe100;
+
+}
+
+.nav-link.disabled{
+	cursor: auto;
+}
+
+nav.navbar.navbar-toggleable-md.navbar-light.bg-faded{
+	background:rgba(0, 153, 222, 1) url(http://imageshack.com/a/img924/9792/Aws0yj.png) top no-repeat;
+	background-position-y: -1375px;
+	z-index: 2;
+}
+
+.navbar-light .navbar-nav .nav-link.disabled{
+	color: rgb(160,98,0);
+
+}
+
+.navbar-light .navbar-nav .nav-link.disabled:hover{
+	color: #ffe100;
+}
+
+nav.navbar.navbar-toggleable-md.navbar-light.bg-faded {
+	transition:all 0.4s;
+	position: fixed;
+	width: 100%
+
+}
+
+.pm {
+
+width: 100%;
+
+}
+
+.img-responsive{
+	width: 100%;
+
+}
+
+.jumbotron{
+	margin-top: -3%;
+	border-radius: 20px;
+
+}
+
+.breadcrumb{
+background-color: #e4e4e4;
+box-shadow: 0px 3px #c9c4c4;
+margin-top: -3%;
+border-radius: 15px;
+}
+
+.LG1{
+	padding-bottom: : 0px;
+	margin: 0px;
+}
 
 
+.list-group-item:last-child{
+	border-bottom-right-radius: none;
+	border-bottom-left-radius: none;
+}
 
-</ul>
+li{
+font-weight: bold;
+font-size: 18px;
+}
 
-<a href="http://essegurancapublica.github.io/index.html"><img class="BR" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/1280px-Flag_of_Brazil.svg.png"></a>
+.list-group-item:first-child{
+	border-top-right-radius:none;
+	border-top-left-radius:none;
+	border-radius: 11px;
+}
 
-<img class="IFES" src="http://imageshack.com/a/img924/714/NV27Fg.png">
+.list-group-item{
+border: none;
+padding: 0px;
+box-shadow: 0px 2px #e2e0e0;
+background-color: #fffffe;
 
-<a href="#"><img class="EUA" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/1280px-Flag_of_the_United_States.svg.png"></a>
+}
 
-
-</div></div>
-
-<!--..............................................FIM DA BARRA HORIZONTAL.................................................-->
-<!--INÍCIO DA PÁGINA-->
-
-
-
-<img class="PM" src="http://imageshack.com/a/img924/3023/Gzc0lg.png">
-<div class="conteudo">
-	<h2>What's Public Security?</h2>
-<section class="home_mais" id="home_mais">
-    <p class="home_mais_texto">Public safety implies that citizens of the same region can live in harmony, where each one respects the individual rights of the other. The State is the guarantor of public safety and the maximum responsible in the time to avoid the alterations of the social order </p>
-    <p class="home_mais_texto">In this sense, public security is a service that must be universal (it must cover all people) to protect the physical integrity of citizens and their assets. For this, there are security forces (such as the police), which work in conjunction with the judiciary.</p>
-
-    <p class="home_mais_texto">Public security forces must prevent and prosecute potential offenses as they occur. It is also the function of the security forces to prosecute the offenders and hand them over to justice, who are responsible for establishing the corresponding punishments in accordance with the law.
-</p>
-
-  </section>
-	<h2> Latest news </h2>
-  <footer>
-    <article class="home_ultimas">
-
-	    <div class="portfolio">
+.list-group{
+	margin-bottom: 25px;
+}
 
 
-      <h4>After meeting with government, PM women vacate barracks in ES</h4>
-      <a href= "http://g1.globo.com/espirito-santo/noticia/2017/02/apos-reuniao-com-governo-mulheres-de-pms-desocupam-quarteis-no-es.html"><img src="http://s2.glbimg.com/K4cXOsafPwbBxKTg9Pj3w54HLWU=/s.glbimg.com/jo/g1/f/original/2017/02/25/reuniao_TaRAxWw.jpg" alt="" class="img_noti1"></a>
-      <p>At a meeting mediated by the MPT, there was consensus among the[..]</p>
-		    </div>
-    </article>
-    <article class="home_ultimas">
+h4{
+	margin-left: 10px;
+	font-family: "Roboto" ,"Myriad Pro"
+}
 
-	   <div class="portfolio">
+.jumbotron{
+	background-color: #f2f2f2;
+}
 
-      <h4>ES PM processes about 28% of active military police officers</h4><br>
-      <a href= "http://g1.globo.com/espirito-santo/noticia/2017/02/pm-do-es-processa-mais-1549-policiais-militares.html"><img src="http://www.aen.pr.gov.br/modules/galeria/uploads/32532/normal_18.jpg" alt="" class="img_noti2"></a>
-      <p>On Friday, there were more than 1,500 internal processes[...]</p>
-		   </div>
-	  </article>
-  </footer>   
-	<p2><a href="not.html">More News</a></p2>
-  <div class="irineu">s</div>
-	</div>
-</body>
-</html>
+a{
+	color: #434648
+}
+
+.theme{
+	float: left;
+	margin-right: 25px;
+	margin-bottom: 5px;
+}
+
+h2, p, li, h4{
+	font-family: "Roboto" ,"Myriad Pro";
+}
+
+
+.p-ponto{
+	width: 70%;
+
+}
+
+.footer{
+	background-color: #237dba;
+	width: 100%;
+	height: 100px;
+	text-align: center;
+	color: #fff;
+	padding: 40px;
+	font-family: "Roboto", "Myriad Pro", Arial;
+}
+	
+	.thumbnail {
+		display: block;
+		padding: 4px;
+		margin-bottom: 20px;
+		line-height: #fff;
+		border: 1px solid #ddd;
+		border-radius:4px;
+		-webkit-transition: border .2s ease-in-out;
+		transition: border .2s ease-in-out;
+
+	}
+
+	.img-thumbnail, .thumbnail {
+		box-shadow: 0 1px 2px rgba(0,0,0,.075);
+		-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.075);
+	}
+
+
+	.btn{
+		margin-top: 1%;
+		float: right;
+
+	}
+
+	.card-footer{
+		background-color: #005690;
+	}
+
+
+	.text-muted{
+		color: #fff!important;
+	}
+
+	.card-img-top{
+		height: 250px;
+		width: 100%;
+	}
+
+	a:hover{
+		transition: all 0.4s linear;
+		text-decoration: none;
+	}
+
+	.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover{
+		background: none;
+
+	}
+
+
+	.navbar-light .navbar-nav .nav-link{
+		margin-left: 800px;
+	}
